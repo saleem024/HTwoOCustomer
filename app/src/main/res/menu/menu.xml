@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_share"/>
+    <item
+        android:id="@+id/notification"
+        android:title="Notification"
+        android:icon="@drawable/ic_action_notification"
+        app:showAsAction="ifRoom"/>
+    <!--<item-->
+        <!--android:id="@+id/notification"-->
+        <!--android:title="Notification"-->
+        <!--app:actionLayout="@drawable/badge_counter"-->
+        <!--android:icon="@drawable/ic_action_notification"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+    <!--android:id="@+id/badge"-->
+    <!--android:actionLayout="@layout/feed_update_count"-->
+    <!--android:icon="@drawable/shape_notification"-->
+    <!--android:showAsAction="always"/>-->
+
+
+    <item
+        android:id="@+id/profileSetting"
+        android:title="Profile Setting" />
+    <item
+        android:id="@+id/changePassword"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

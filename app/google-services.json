@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5066549540",
+    "firebase_url": "https://htwoocustomer.firebaseio.com",
+    "project_id": "htwoocustomer",
+    "storage_bucket": "htwoocustomer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5066549540:android:4ecc6eed5d7a438c",
+        "android_client_info": {
+          "package_name": "com.techkshetrainfo.htwoocustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5066549540-ask5ajp97lh5lobqvceobvmhiu746sqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techkshetrainfo.htwoocustomer",
+            "certificate_hash": "1eee688efb2b94afa2b3cb36f62d9e1795698875"
+          }
+        },
+        {
+          "client_id": "5066549540-knf66bqgjdjuv4pm2q8mu1sftmv1c9f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSdLc87v5l5UALuTo-6m6t-xAAQiqqK5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5066549540-knf66bqgjdjuv4pm2q8mu1sftmv1c9f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

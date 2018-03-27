@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">H2O Customer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="nutrients_desc">Typical values per 100 ml \n Potassium    0.1 mg \n Magnesium    0.2 mg</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="Item">Item</string>
+    <string name="login_success">Logged in Succesfully</string>
+    <string name="confirm_password_error">Confirm password did not match password</string>
+    <string name="category">Category</string>
+    <string name="action_settings">Settings</string>
+    <string name="pass_not_change">Unable to change password..</string>
+    <string name="action">Action</string>
+    <string name="pass_change_success">Password changed succesfully</string>
+    <string name="phone_error">Enter valid Mobile No</string>
+    <string name="invalid_credential_msg">Invalid Email or Password</string>
+    <string name="empty_location">Location cannot be empty</string>
+    <string name="empty_field">Field Cannot be left empty</string>
+    <string name="internet_error_title">Internet Error</string>
+    <string name="internet_error">Please Check Your internet Connection</string>
+    <string name="add_detail">KEONICS IT Park, Opp High Court,Ring Road.
+           Kalaburagi-585102(KARNATAKA)</string>
+</resources>

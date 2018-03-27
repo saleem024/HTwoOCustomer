@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context="com.techkshetrainfo.htwoocustomer.InvoiceActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/transparent_background"
+                android:orientation="vertical"
+                android:padding="@dimen/fivedp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="51dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/invoiceNo1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Invoice No: IN003"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/no_of_cans1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="No of Cans: 4"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/view_req_id1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Amount: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/balance1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Balance: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/date1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Date: 21-1-2018"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                        <TextView
+                            android:id="@+id/download1"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:background="@color/black"
+                            android:fontFamily="sans-serif"
+                            android:padding="@dimen/fivedp"
+                            android:text="Download"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/transparent_background"
+                android:orientation="vertical"
+                android:padding="@dimen/fivedp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="51dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/invoiceNo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Invoice No: IN002"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/no_of_cans2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="No of Cans: 4"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/view_req_id2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Amount: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/balance2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Balance: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/date2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Date: 11-11-2017"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                        <TextView
+                            android:id="@+id/download2"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:background="@color/black"
+                            android:fontFamily="sans-serif"
+                            android:padding="@dimen/fivedp"
+                            android:text="Download"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/transparent_background"
+                android:orientation="vertical"
+                android:padding="@dimen/fivedp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="51dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/invoiceNo3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Invoice No: IN001"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/no_of_cans3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="No of Cans: 4"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/view_req_id3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Amount: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+                    <TableRow android:padding="@dimen/fivedp">
+
+                        <TextView
+                            android:id="@+id/balance3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Balance: 120"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twodp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="@dimen/fifteensp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/date3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:text="Date: 21-1-2017"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/twentyfive" />
+
+                        <TextView
+                            android:id="@+id/download3"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:background="@color/black"
+                            android:fontFamily="sans-serif"
+                            android:padding="@dimen/fivedp"
+                            android:text="Download"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
